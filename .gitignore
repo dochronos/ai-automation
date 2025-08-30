@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Credentials/env
+.env
+*.json
+
+# Local data
+/data/outputs/
+*.db
+
+# Streamlit
+.streamlit/

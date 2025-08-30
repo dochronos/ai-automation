@@ -1,0 +1,6 @@
+id,created_at,channel,subject,description
+1,2025-08-20,web,"Login issue","I can't sign in with my email, it says invalid credentials"
+2,2025-08-21,email,"Billing question","I was overcharged this month, need a credit note"
+3,2025-08-22,whatsapp,"Mobile app bug","The app crashes when I try to pay"
+4,2025-08-22,web,"Product information","Do you have a yearly plan with discount?"
+5,2025-08-23,email,"Security alert","I noticed a suspicious access to my account"
