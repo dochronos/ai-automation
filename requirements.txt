@@ -3,3 +3,4 @@ python-dotenv==1.0.1
 pydantic==2.8.2
 requests==2.32.3
 streamlit==1.37.1
+faker==26.0.0

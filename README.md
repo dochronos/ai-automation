@@ -42,7 +42,6 @@ Build a **realistic Automation + AI workflow** that takes operational data, **cl
 
 ## 🏗️ Architecture (baseline)
 
-```mermaid
 flowchart LR
   subgraph Capture
     A[Google Form] --> B[Google Sheets]
@@ -132,6 +131,8 @@ ai-automation/
 * **Week 2 (Automations)**: stable AI classification, priority/owner rules, P1 notifications + retries.
 * **Week 3 (Dashboard)**: KPIs, filters, AI insights, screenshots.
 * **Week 4 (Polish)**: hardening (logs, DLQ), documentation, short demo video and release v1.0.
+
+![Week 1 Dashboard](assets/screenshots/week1_dashboard.png)
 
 ---
 
