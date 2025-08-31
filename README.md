@@ -41,7 +41,7 @@ Build a **realistic Automation + AI workflow** that takes operational data, **cl
 ---
 
 ## 🏗️ Architecture (baseline)
-
+```
 flowchart LR
   subgraph Capture
     A[Google Form] --> B[Google Sheets]

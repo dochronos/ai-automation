@@ -1,121 +1,141 @@
 id,created_at,channel,subject,description
-1,2025-08-23,app,App crashes on payment,The app crashes when I try to pay.
-2,2025-08-10,app,Can't sign in,I can't log in with my email; says invalid credentials.
-3,2025-08-10,email,Charged twice,"I was overcharged this month, need a credit note."
-4,2025-08-20,phone,Login issue,Password reset link expired; still can't access my account.
-5,2025-08-21,email,Security alert,I noticed an unfamiliar login from another country.
-6,2025-08-13,web,Billing question,"I was overcharged this month, need a credit note."
-7,2025-08-17,whatsapp,Security alert,I noticed an unfamiliar login from another country.
-8,2025-08-27,whatsapp,Pricing plan,Can you share pricing for the team plan?
-9,2025-08-26,email,Annual discount?,Do you offer an annual plan with a discount?
-10,2025-08-18,email,Android login freeze,The app crashes when I try to pay. please help
-11,2025-08-08,phone,Can't sign in,Password reset link expired; still can't access my account. please help
-12,2025-08-20,app,Can't sign in,Password reset link expired; still can't access my account.
-13,2025-08-29,app,Annual discount?,Do you offer an annual plan with a discount? asap
-14,2025-08-23,web,Account breach suspected,I noticed an unfamiliar login from another country. please help
-15,2025-08-22,web,App crashes on payment,Android app freezes on the login screen.
-16,2025-08-26,phone,Refund request,"I was overcharged this month, need a credit note. please help"
-17,2025-08-15,web,Refund request,"I was overcharged this month, need a credit note."
-18,2025-08-28,app,Suspicious access,I noticed an unfamiliar login from another country. please help
-19,2025-08-15,whatsapp,Annual discount?,Can you share pricing for the team plan?
-20,2025-08-21,web,Password reset doesn't work,Password reset link expired; still can't access my account.
-21,2025-08-11,web,Login issue,Password reset link expired; still can't access my account.
-22,2025-08-23,web,Annual discount?,Can you share pricing for the team plan?
-23,2025-08-13,email,Refund request,"I was overcharged this month, need a credit note."
-24,2025-08-23,email,Android login freeze,The app crashes when I try to pay.
-25,2025-08-15,whatsapp,Android login freeze,The app crashes when I try to pay.
-26,2025-08-21,whatsapp,Account breach suspected,I noticed an unfamiliar login from another country.
-27,2025-08-25,phone,Password reset doesn't work,Password reset link expired; still can't access my account. please help
-28,2025-08-24,app,Account breach suspected,I noticed an unfamiliar login from another country.
-29,2025-08-13,web,Suspicious access,Got an alert about a suspicious access to my account.
-30,2025-08-18,phone,Billing question,Invoice total seems wrong compared to my plan.
-31,2025-08-09,phone,Password reset doesn't work,Password reset link expired; still can't access my account. please help
-32,2025-08-23,app,Login issue,Password reset link expired; still can't access my account.
-33,2025-08-08,whatsapp,Can't sign in,I can't log in with my email; says invalid credentials. asap
-34,2025-08-18,web,Refund request,Invoice total seems wrong compared to my plan. asap
-35,2025-08-16,email,App crashes on payment,Android app freezes on the login screen. please help
-36,2025-08-12,email,Pricing plan,Can you share pricing for the team plan?
-37,2025-08-20,phone,Refund request,"I was overcharged this month, need a credit note. asap"
-38,2025-08-24,email,Product information,Do you offer an annual plan with a discount?
-39,2025-08-23,email,Suspicious access,I noticed an unfamiliar login from another country. please help
-40,2025-08-26,whatsapp,Password reset doesn't work,I can't log in with my email; says invalid credentials.
-41,2025-08-18,whatsapp,Refund request,Invoice total seems wrong compared to my plan. please help
-42,2025-08-27,whatsapp,Pricing plan,Can you share pricing for the team plan?
-43,2025-08-11,whatsapp,Product information,Do you offer an annual plan with a discount?
-44,2025-08-25,phone,Android login freeze,Android app freezes on the login screen. urgent
-45,2025-08-10,whatsapp,Login issue,Password reset link expired; still can't access my account. urgent
-46,2025-08-08,web,Can't sign in,Password reset link expired; still can't access my account.
-47,2025-08-24,web,Login issue,Password reset link expired; still can't access my account.
-48,2025-08-25,whatsapp,Pricing plan,Do you offer an annual plan with a discount? urgent
-49,2025-08-25,web,Login issue,I can't log in with my email; says invalid credentials.
-50,2025-08-11,app,Suspicious access,I noticed an unfamiliar login from another country.
-51,2025-08-18,whatsapp,App crashes on payment,The app crashes when I try to pay.
-52,2025-08-24,app,Can't sign in,I can't log in with my email; says invalid credentials. asap
-53,2025-08-28,web,Android login freeze,Android app freezes on the login screen. urgent
-54,2025-08-13,whatsapp,Security alert,Got an alert about a suspicious access to my account. thanks!
-55,2025-08-27,phone,Login issue,Password reset link expired; still can't access my account.
-56,2025-08-11,email,App crashes on payment,The app crashes when I try to pay.
-57,2025-08-22,app,Refund request,Invoice total seems wrong compared to my plan. thanks!
-58,2025-08-12,web,Password reset doesn't work,Password reset link expired; still can't access my account. thanks!
-59,2025-08-10,phone,Pricing plan,Do you offer an annual plan with a discount?
-60,2025-08-17,app,Product information,Do you offer an annual plan with a discount?
-61,2025-08-20,email,Suspicious access,I noticed an unfamiliar login from another country.
-62,2025-08-21,phone,Billing question,"I was overcharged this month, need a credit note."
-63,2025-08-15,phone,App crashes on payment,The app crashes when I try to pay.
-64,2025-08-14,web,Security alert,I noticed an unfamiliar login from another country.
-65,2025-08-11,whatsapp,Android login freeze,Android app freezes on the login screen.
-66,2025-08-11,whatsapp,Android login freeze,The app crashes when I try to pay. please help
-67,2025-08-23,app,Annual discount?,Can you share pricing for the team plan? please help
-68,2025-08-19,app,Password reset doesn't work,I can't log in with my email; says invalid credentials.
-69,2025-08-16,app,Android login freeze,The app crashes when I try to pay.
-70,2025-08-08,web,Pricing plan,Do you offer an annual plan with a discount? urgent
-71,2025-08-16,whatsapp,Mobile app bug,Android app freezes on the login screen.
-72,2025-08-28,app,Password reset doesn't work,I can't log in with my email; says invalid credentials. please help
-73,2025-08-16,phone,Can't sign in,Password reset link expired; still can't access my account.
-74,2025-08-13,app,Password reset doesn't work,Password reset link expired; still can't access my account. please help
-75,2025-08-17,email,Can't sign in,Password reset link expired; still can't access my account.
-76,2025-08-19,phone,Can't sign in,Password reset link expired; still can't access my account.
-77,2025-08-17,email,Pricing plan,Do you offer an annual plan with a discount?
-78,2025-08-25,phone,App crashes on payment,The app crashes when I try to pay. thanks!
-79,2025-08-25,web,Password reset doesn't work,Password reset link expired; still can't access my account.
-80,2025-08-20,whatsapp,Annual discount?,Do you offer an annual plan with a discount? thanks!
-81,2025-08-26,web,App crashes on payment,The app crashes when I try to pay.
-82,2025-08-25,web,Android login freeze,The app crashes when I try to pay. urgent
-83,2025-08-22,app,Annual discount?,Do you offer an annual plan with a discount?
-84,2025-08-16,phone,Billing question,"I was overcharged this month, need a credit note."
-85,2025-08-11,app,App crashes on payment,Android app freezes on the login screen.
-86,2025-08-27,web,Refund request,Invoice total seems wrong compared to my plan.
-87,2025-08-21,email,Password reset doesn't work,Password reset link expired; still can't access my account.
-88,2025-08-08,email,Can't sign in,Password reset link expired; still can't access my account.
-89,2025-08-14,app,Charged twice,Invoice total seems wrong compared to my plan.
-90,2025-08-22,app,Can't sign in,I can't log in with my email; says invalid credentials.
-91,2025-08-12,app,Android login freeze,The app crashes when I try to pay. please help
-92,2025-08-21,app,Refund request,"I was overcharged this month, need a credit note. please help"
-93,2025-08-23,email,Password reset doesn't work,Password reset link expired; still can't access my account. urgent
-94,2025-08-25,app,Password reset doesn't work,Password reset link expired; still can't access my account.
-95,2025-08-09,phone,Refund request,"I was overcharged this month, need a credit note."
-96,2025-08-29,web,Pricing plan,Can you share pricing for the team plan? urgent
-97,2025-08-19,email,Charged twice,"I was overcharged this month, need a credit note."
-98,2025-08-19,web,Account breach suspected,Got an alert about a suspicious access to my account.
-99,2025-08-17,app,Mobile app bug,Android app freezes on the login screen.
-100,2025-08-18,web,Product information,Can you share pricing for the team plan? urgent
-101,2025-08-13,app,Login issue,Password reset link expired; still can't access my account. urgent
-102,2025-08-20,whatsapp,Suspicious access,Got an alert about a suspicious access to my account.
-103,2025-08-21,web,Login issue,Password reset link expired; still can't access my account. asap
-104,2025-08-22,web,App crashes on payment,Android app freezes on the login screen. urgent
-105,2025-08-08,whatsapp,Annual discount?,Can you share pricing for the team plan?
-106,2025-08-11,app,Mobile app bug,The app crashes when I try to pay. asap
-107,2025-08-14,phone,Password reset doesn't work,Password reset link expired; still can't access my account.
-108,2025-08-13,whatsapp,Account breach suspected,I noticed an unfamiliar login from another country.
-109,2025-08-19,whatsapp,Security alert,I noticed an unfamiliar login from another country. urgent
-110,2025-08-09,phone,Login issue,Password reset link expired; still can't access my account. asap
-111,2025-08-28,whatsapp,Can't sign in,Password reset link expired; still can't access my account. asap
-112,2025-08-25,app,Can't sign in,I can't log in with my email; says invalid credentials. asap
-113,2025-08-11,app,Product information,Do you offer an annual plan with a discount?
-114,2025-08-27,web,Password reset doesn't work,I can't log in with my email; says invalid credentials.
-115,2025-08-24,email,Can't sign in,I can't log in with my email; says invalid credentials.
-116,2025-08-19,app,Product information,Can you share pricing for the team plan?
-117,2025-08-23,app,App crashes on payment,Android app freezes on the login screen. thanks!
-118,2025-08-13,whatsapp,Mobile app bug,Android app freezes on the login screen. urgent
-119,2025-08-22,app,Refund request,Invoice total seems wrong compared to my plan.
-120,2025-08-17,web,Can't sign in,Password reset link expired; still can't access my account. urgent
+1,2025-08-18,phone,Annual discount?,Do you offer an annual plan with a discount? please help
+2,2025-08-26,whatsapp,Android login freeze,The app crashes when I try to pay.
+3,2025-08-19,phone,Security alert,I noticed an unfamiliar login from another country.
+4,2025-08-12,web,Charged twice,"I was overcharged this month, need a credit note."
+5,2025-08-26,phone,Billing question,Invoice total seems wrong compared to my plan.
+6,2025-08-23,whatsapp,Can't sign in,Password reset link expired; still can't access my account.
+7,2025-08-28,whatsapp,Login issue,I can't log in with my email; says invalid credentials.
+8,2025-08-26,phone,Account breach suspected,I noticed an unfamiliar login from another country.
+9,2025-08-17,app,Suspicious access,I noticed an unfamiliar login from another country.
+10,2025-08-28,app,Annual discount?,Can you share pricing for the team plan?
+11,2025-08-11,phone,App crashes on payment,Android app freezes on the login screen.
+12,2025-08-15,whatsapp,Billing question,Invoice total seems wrong compared to my plan. please help
+13,2025-08-24,phone,App crashes on payment,Android app freezes on the login screen.
+14,2025-08-16,phone,Suspicious access,Got an alert about a suspicious access to my account. thanks!
+15,2025-08-18,web,Mobile app bug,The app crashes when I try to pay.
+16,2025-08-27,phone,Billing question,Invoice total seems wrong compared to my plan.
+17,2025-08-16,phone,Password reset doesn't work,I can't log in with my email; says invalid credentials.
+18,2025-08-17,phone,Refund request,"I was overcharged this month, need a credit note."
+19,2025-08-24,app,Billing question,Invoice total seems wrong compared to my plan.
+20,2025-08-15,email,Login issue,I can't log in with my email; says invalid credentials.
+21,2025-08-22,whatsapp,Suspicious access,Got an alert about a suspicious access to my account. urgent
+22,2025-08-16,whatsapp,Password reset doesn't work,I can't log in with my email; says invalid credentials.
+23,2025-08-09,whatsapp,App crashes on payment,Android app freezes on the login screen.
+24,2025-08-12,whatsapp,Login issue,Password reset link expired; still can't access my account.
+25,2025-08-15,phone,Product information,Do you offer an annual plan with a discount?
+26,2025-08-14,email,Login issue,I can't log in with my email; says invalid credentials.
+27,2025-08-18,email,Mobile app bug,Android app freezes on the login screen.
+28,2025-08-11,email,Mobile app bug,The app crashes when I try to pay.
+29,2025-08-20,web,Security alert,Got an alert about a suspicious access to my account. please help
+30,2025-08-18,phone,Android login freeze,Android app freezes on the login screen. please help
+31,2025-08-16,email,Annual discount?,Can you share pricing for the team plan?
+32,2025-08-24,whatsapp,Refund request,"I was overcharged this month, need a credit note."
+33,2025-08-27,web,Pricing plan,Do you offer an annual plan with a discount? please help
+34,2025-08-19,app,Can't sign in,Password reset link expired; still can't access my account.
+35,2025-08-19,email,Security alert,I noticed an unfamiliar login from another country.
+36,2025-08-17,phone,Annual discount?,Can you share pricing for the team plan?
+37,2025-08-09,email,Refund request,Invoice total seems wrong compared to my plan.
+38,2025-08-26,whatsapp,Mobile app bug,Android app freezes on the login screen.
+39,2025-08-22,app,Login issue,I can't log in with my email; says invalid credentials.
+40,2025-08-21,app,Account breach suspected,I noticed an unfamiliar login from another country.
+41,2025-08-14,phone,Product information,Can you share pricing for the team plan?
+42,2025-08-25,whatsapp,Refund request,"I was overcharged this month, need a credit note."
+43,2025-08-25,app,Can't sign in,Password reset link expired; still can't access my account.
+44,2025-08-16,phone,Billing question,"I was overcharged this month, need a credit note. asap"
+45,2025-08-17,email,Product information,Do you offer an annual plan with a discount? asap
+46,2025-08-16,phone,Suspicious access,Got an alert about a suspicious access to my account.
+47,2025-08-13,app,Annual discount?,Do you offer an annual plan with a discount? asap
+48,2025-08-17,email,Login issue,I can't log in with my email; says invalid credentials. asap
+49,2025-08-11,app,Account breach suspected,Got an alert about a suspicious access to my account. thanks!
+50,2025-08-09,app,Android login freeze,The app crashes when I try to pay.
+51,2025-08-27,app,Refund request,Invoice total seems wrong compared to my plan. thanks!
+52,2025-08-30,web,Can't sign in,I can't log in with my email; says invalid credentials. urgent
+53,2025-08-17,phone,Annual discount?,Can you share pricing for the team plan?
+54,2025-08-19,phone,Suspicious access,I noticed an unfamiliar login from another country.
+55,2025-08-23,app,Charged twice,Invoice total seems wrong compared to my plan.
+56,2025-08-28,phone,Login issue,Password reset link expired; still can't access my account.
+57,2025-08-24,web,Refund request,"I was overcharged this month, need a credit note."
+58,2025-08-23,email,Refund request,"I was overcharged this month, need a credit note. thanks!"
+59,2025-08-13,email,App crashes on payment,Android app freezes on the login screen.
+60,2025-08-24,phone,Product information,Can you share pricing for the team plan? thanks!
+61,2025-08-10,phone,App crashes on payment,Android app freezes on the login screen.
+62,2025-08-20,whatsapp,App crashes on payment,The app crashes when I try to pay.
+63,2025-08-09,email,Can't sign in,Password reset link expired; still can't access my account.
+64,2025-08-30,phone,Mobile app bug,The app crashes when I try to pay. urgent
+65,2025-08-14,email,Pricing plan,Do you offer an annual plan with a discount? asap
+66,2025-08-27,email,App crashes on payment,Android app freezes on the login screen. thanks!
+67,2025-08-22,email,Product information,Do you offer an annual plan with a discount?
+68,2025-08-23,phone,Account breach suspected,I noticed an unfamiliar login from another country.
+69,2025-08-15,phone,Login issue,Password reset link expired; still can't access my account.
+70,2025-08-13,whatsapp,Can't sign in,Password reset link expired; still can't access my account.
+71,2025-08-26,email,Can't sign in,Password reset link expired; still can't access my account. urgent
+72,2025-08-17,email,Annual discount?,Do you offer an annual plan with a discount?
+73,2025-08-14,phone,Android login freeze,Android app freezes on the login screen.
+74,2025-08-11,web,Pricing plan,Do you offer an annual plan with a discount? please help
+75,2025-08-15,app,Can't sign in,I can't log in with my email; says invalid credentials. asap
+76,2025-08-28,whatsapp,App crashes on payment,The app crashes when I try to pay. asap
+77,2025-08-14,email,Security alert,I noticed an unfamiliar login from another country. thanks!
+78,2025-08-27,whatsapp,Billing question,Invoice total seems wrong compared to my plan. thanks!
+79,2025-08-30,email,Android login freeze,The app crashes when I try to pay.
+80,2025-08-14,whatsapp,Account breach suspected,I noticed an unfamiliar login from another country.
+81,2025-08-11,web,Login issue,Password reset link expired; still can't access my account.
+82,2025-08-12,phone,Password reset doesn't work,I can't log in with my email; says invalid credentials. urgent
+83,2025-08-11,web,Login issue,I can't log in with my email; says invalid credentials. asap
+84,2025-08-17,phone,Billing question,"I was overcharged this month, need a credit note."
+85,2025-08-10,app,Security alert,Got an alert about a suspicious access to my account.
+86,2025-08-16,app,Mobile app bug,The app crashes when I try to pay. please help
+87,2025-08-12,email,Password reset doesn't work,Password reset link expired; still can't access my account.
+88,2025-08-30,web,Refund request,"I was overcharged this month, need a credit note."
+89,2025-08-13,phone,Billing question,Invoice total seems wrong compared to my plan.
+90,2025-08-27,whatsapp,Annual discount?,Do you offer an annual plan with a discount? please help
+91,2025-08-24,web,App crashes on payment,Android app freezes on the login screen.
+92,2025-08-25,email,Android login freeze,Android app freezes on the login screen. asap
+93,2025-08-25,email,Can't sign in,I can't log in with my email; says invalid credentials.
+94,2025-08-24,web,Android login freeze,Android app freezes on the login screen. please help
+95,2025-08-22,app,Billing question,"I was overcharged this month, need a credit note. please help"
+96,2025-08-25,phone,Charged twice,Invoice total seems wrong compared to my plan.
+97,2025-08-22,phone,Billing question,"I was overcharged this month, need a credit note."
+98,2025-08-09,whatsapp,Login issue,I can't log in with my email; says invalid credentials.
+99,2025-08-11,phone,Annual discount?,Do you offer an annual plan with a discount?
+100,2025-08-28,app,Account breach suspected,Got an alert about a suspicious access to my account. please help
+101,2025-08-23,phone,Mobile app bug,The app crashes when I try to pay.
+102,2025-08-17,web,Product information,Do you offer an annual plan with a discount?
+103,2025-08-13,email,Refund request,"I was overcharged this month, need a credit note."
+104,2025-08-28,email,Annual discount?,Can you share pricing for the team plan?
+105,2025-08-15,email,Password reset doesn't work,I can't log in with my email; says invalid credentials.
+106,2025-08-10,app,Password reset doesn't work,Password reset link expired; still can't access my account.
+107,2025-08-17,web,Security alert,I noticed an unfamiliar login from another country.
+108,2025-08-17,app,Billing question,"I was overcharged this month, need a credit note."
+109,2025-08-20,phone,Suspicious access,Got an alert about a suspicious access to my account.
+110,2025-08-25,web,App crashes on payment,Android app freezes on the login screen. please help
+111,2025-08-24,web,Android login freeze,The app crashes when I try to pay.
+112,2025-08-20,email,App crashes on payment,Android app freezes on the login screen.
+113,2025-08-25,email,Security alert,I noticed an unfamiliar login from another country.
+114,2025-08-28,web,Can't sign in,Password reset link expired; still can't access my account.
+115,2025-08-30,whatsapp,Security alert,Got an alert about a suspicious access to my account. thanks!
+116,2025-08-14,app,Security alert,Got an alert about a suspicious access to my account. please help
+117,2025-08-17,email,Can't sign in,I can't log in with my email; says invalid credentials.
+118,2025-08-14,whatsapp,Account breach suspected,I noticed an unfamiliar login from another country.
+119,2025-08-17,web,App crashes on payment,Android app freezes on the login screen.
+120,2025-08-30,web,Refund request,"I was overcharged this month, need a credit note. please help"
+121,2025-08-23,phone,Password reset doesn't work,Password reset link expired; still can't access my account. thanks!
+122,2025-08-13,email,App crashes on payment,The app crashes when I try to pay.
+123,2025-08-12,whatsapp,Can't sign in,I can't log in with my email; says invalid credentials.
+124,2025-08-16,web,Account breach suspected,I noticed an unfamiliar login from another country. please help
+125,2025-08-14,app,Android login freeze,Android app freezes on the login screen.
+126,2025-08-20,app,Suspicious access,I noticed an unfamiliar login from another country.
+127,2025-08-19,whatsapp,Suspicious access,Got an alert about a suspicious access to my account. asap
+128,2025-08-17,app,Product information,Can you share pricing for the team plan? please help
+129,2025-08-24,phone,Password reset doesn't work,Password reset link expired; still can't access my account.
+130,2025-08-27,web,Password reset doesn't work,Password reset link expired; still can't access my account.
+131,2025-08-25,app,Refund request,"I was overcharged this month, need a credit note."
+132,2025-08-29,whatsapp,Refund request,Invoice total seems wrong compared to my plan.
+133,2025-08-17,phone,Pricing plan,Do you offer an annual plan with a discount?
+134,2025-08-10,email,Login issue,Password reset link expired; still can't access my account. thanks!
+135,2025-08-15,email,Account breach suspected,Got an alert about a suspicious access to my account. asap
+136,2025-08-29,app,Suspicious access,Got an alert about a suspicious access to my account. urgent
+137,2025-08-24,app,Login issue,Password reset link expired; still can't access my account.
+138,2025-08-18,app,Refund request,"I was overcharged this month, need a credit note."
+139,2025-08-14,email,Password reset doesn't work,I can't log in with my email; says invalid credentials.
+140,2025-08-28,email,Android login freeze,Android app freezes on the login screen.
