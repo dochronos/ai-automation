@@ -41,7 +41,7 @@ Build a **realistic Automation + AI workflow** that takes operational data, **cl
 ---
 
 ## 🏗️ Architecture (baseline)
-```
+```mermaid
 flowchart LR
   subgraph Capture
     A[Google Form] --> B[Google Sheets]
@@ -69,7 +69,6 @@ flowchart LR
   E --> I
   F --> J
   G -. optional cache .-> J
-```
 
 ---
 
@@ -94,7 +93,7 @@ flowchart LR
 
 ---
 
-## 📁 Minimal Structure (aligned to your current repo)
+## 📁 Minimal Structure
 
 ```
 ai-automation/
@@ -122,6 +121,12 @@ ai-automation/
 ├─ README.md
 └─ LICENSE
 ```
+---
+
+## 🧪 Testing Utilities
+
+The `scripts/` folder contains helper scripts for demonstration purposes.  
+Example: `scripts/add_test_p1.py` appends a synthetic P1-critical ticket to the input dataset so that recruiters can instantly see a Telegram alert in action.
 
 ---
 
@@ -132,7 +137,21 @@ ai-automation/
 * **Week 3 (Dashboard)**: KPIs, filters, AI insights, screenshots.
 * **Week 4 (Polish)**: hardening (logs, DLQ), documentation, short demo video and release v1.0.
 
+---
+
+📸 Deliverables
+Week 1
+
+Minimal dashboard running with synthetic data.
+
 ![Week 1 Dashboard](assets/screenshots/week1_dashboard.png)
+
+Week 2
+
+Integration of a local LLM (Ollama) for automated summaries.
+The dashboard now displays AI-generated insights + actionable next steps along with KPIs and charts.
+
+![Week 2 Dashboard](assets/screenshots/week2_dashboard.png)
 
 ---
 
