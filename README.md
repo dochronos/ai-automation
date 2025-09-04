@@ -140,18 +140,31 @@ Example: `scripts/add_test_p1.py` appends a synthetic P1-critical ticket to the 
 ---
 
 📸 Deliverables
-Week 1
+
+### Week 1
 
 Minimal dashboard running with synthetic data.
 
+Screenshot:
 ![Week 1 Dashboard](assets/screenshots/week1_dashboard.png)
 
-Week 2
+### Week 2
 
 Integration of a local LLM (Ollama) for automated summaries.
 The dashboard now displays AI-generated insights + actionable next steps along with KPIs and charts.
 
+Screenshot:
 ![Week 2 Dashboard](assets/screenshots/week2_dashboard.png)
+
+### Week 3
+
+- Implemented **real-time Telegram alerts** for P1 (critical) tickets.  
+- Enhanced **dashboard** with filters, AI summaries, and drill-down views.  
+- Added **testing utilities** (`scripts/add_test_p1.py`) to simulate alerts for recruiters/teachers.  
+
+Screenshots:  
+![Week 3 Dashboard](assets/screenshots/week3_dashboard.png)  
+![Week 3 Telegram Alert](assets/screenshots/week3_telegram.png)
 
 ---
 
