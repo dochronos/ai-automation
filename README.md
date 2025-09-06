@@ -166,6 +166,26 @@ Screenshots:
 ![Week 3 Dashboard](assets/screenshots/week3_dashboard.png)  
 ![Week 3 Telegram Alert](assets/screenshots/week3_telegram.png)
 
+
+### Week 4 – Orchestration & Alerts
+
+In Week 4 we integrated **orchestration (n8n)** with our pipeline and connected it to **real-time notifications** via Telegram.
+
+- **n8n workflow**: scheduled job (every minute) triggers the pipeline via HTTP POST → `uvicorn` backend processes rows.  
+- **uvicorn backend**: runs `process_new_rows.py`, classifies new tickets, summarizes with LLM, and detects P1.  
+- **Telegram bot**: receives instant alerts for P1-critical tickets.
+
+### Evidence
+
+- Workflow in **n8n**:  
+  ![Week 4 n8n](assets/screenshots/week4_n8n.png)
+
+- Backend logs in **uvicorn**:  
+  ![Week 4 uvicorn](assets/screenshots/week4_uvicorn.png)
+
+- **Telegram notification** of a synthetic P1 ticket:  
+  ![Week 4 Telegram](assets/screenshots/week4_telegram.png)
+
 ---
 
 ## ⚙️ Setup

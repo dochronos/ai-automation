@@ -121,3 +121,4 @@ id,created_at,channel,subject,description
 120,2025-08-27,phone,Login issue,I can't log in with my email; says invalid credentials. asap
 6b4b90df-324a-4bf2-beaa-07a63803df69,2025-09-01T22:26:28,web,URGENT: production login outage,Users cannot log in. 500 errors on auth callback. Impacting payments.
 0cdac91e-3524-4339-8de4-f3bd4e8afb32,2025-09-01T22:48:01,web,URGENT: production login outage,Users cannot log in. 500 errors on auth callback. Impacting payments.
+766db2b2-e152-4637-9401-38031c3d469d,2025-09-05T22:53:19,web,URGENT: production login outage,Users cannot log in. 500 errors on auth callback. Impacting payments.
