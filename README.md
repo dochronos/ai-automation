@@ -40,38 +40,6 @@ Build a **realistic Automation + AI workflow** that takes operational data, **cl
 
 ---
 
-## 🏗️ Architecture (baseline)
-```mermaid
-flowchart LR
-  subgraph Capture
-    A[Google Form] --> B[Google Sheets]
-  end
-  subgraph Orchestrator
-    C[n8n Cron + Polling] --> D[Dedup/Rules]
-  end
-  subgraph AI
-    E[llm_client\n(classify, priority, sentiment)]
-  end
-  subgraph Storage
-    F[(Sheets: results)]
-    G[(SQLite/CSV cache)]
-  end
-  subgraph Notify
-    H[Telegram Bot]
-    I[Gmail API]
-  end
-  subgraph Analytics
-    J[Streamlit Dashboard]
-  end
-
-  B --> C --> D --> E --> F --> J
-  E --> H
-  E --> I
-  F --> J
-  G -. optional cache .-> J
-
----
-
 ## ✨ Features
 
 * **Ingestion**: incremental read of new rows in Google Sheets (deduped by `row_id`).
@@ -95,32 +63,31 @@ flowchart LR
 
 ## 📁 Minimal Structure
 
-```
 ai-automation/
 ├─ docs/
 ├─ src/
 │  ├─ dashboard/
-│  │  └─ Home.py
+│  ├─ home.py
 │  ├─ jobs/
 │  │  └─ process_new_rows.py
 │  ├─ services/
 │  │  ├─ sheets_client.py
 │  │  ├─ llm_client.py
 │  │  ├─ notifier.py
-│  │  └─ rules.py
-│  ├─ utils/
+│  │  ├─ rules.py
 │  │  └─ io.py
-├─ data/
-│  ├─ sample_tickets.csv
-│  └─ outputs/
+│  ├─ utils/
+│  └─ data/
+│     ├─ sample_tickets.csv
+│     └─ outputs/
 ├─ flows/
-│  └─ n8n_mvp.json
+├─ n8n_mvp.json
 ├─ .env.example
 ├─ requirements.txt
 ├─ .gitignore
 ├─ README.md
 └─ LICENSE
-```
+
 ---
 
 ## 🧪 Testing Utilities
