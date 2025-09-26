@@ -153,6 +153,19 @@ In Week 4 we integrated **orchestration (n8n)** with our pipeline and connected 
 - **Telegram notification** of a synthetic P1 ticket:  
   ![Week 4 Telegram](assets/screenshots/week4_telegram.png)
 
+### Week 5 – Logging & System Health
+
+- Added **structured logging** with request/ticket IDs.  
+- Implemented **Dead Letter Queue (DLQ)** for failed notifications (7-day retention).  
+- New **/metrics endpoint** with processed, failed, DLQ and notification counters.  
+- Streamlit dashboard extended with **System Health** and **DLQ tabs**.  
+
+Screenshots:  
+- **System Health**:  
+  ![Week 5 System Health](assets/screenshots/week5_systemhealth.png)
+
+- **Dead Letter Queue**:  
+  ![Week 5 DLQ](assets/screenshots/week5_dlq.png)
 ---
 
 ## ⚙️ Setup
