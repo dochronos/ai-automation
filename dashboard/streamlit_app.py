@@ -264,19 +264,30 @@ with tab_explorer:
 # ============================ TAB: SYSTEM HEALTH ============================
 with tab_health:
     st.subheader("System Health")
-    cols = st.columns(3)
     m = fetch_metrics()
-    if m:
-        cols[0].metric("Tickets procesados", m.get("tickets_processed", 0))
-        cols[1].metric("Tickets fallidos", m.get("tickets_failed", 0))
-        rate = m.get("success_rate", 0.0)
-        cols[2].metric("Rate de éxito", f"{rate*100:.1f}%")
-        st.caption(
-            f"DLQ escritos: {m.get('dlq_written', 0)} | "
-            f"Notif OK: {m.get('notify_success', 0)} | "
-            f"Notif fallidas: {m.get('notify_failed', 0)}"
-        )
-    st.info(f"API_URL: {API_URL}")
+
+    if not m:
+        st.stop()
+
+    # Fila 1: éxito / error
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Processed", m.get("tickets_processed", 0))
+    c2.metric("Failed", m.get("tickets_failed", 0))
+    c3.metric("Success rate", f"{m.get('success_rate', 0.0) * 100:.1f}%")
+    c4.metric("Error rate", f"{m.get('error_rate', 0.0) * 100:.1f}%")
+
+    # Fila 2: notificaciones y reintentos
+    d1, d2, d3, d4 = st.columns(4)
+    d1.metric("Notify OK", m.get("notify_success", 0))
+    d2.metric("Notify failed", m.get("notify_failed", 0))
+    d3.metric("Retries (total)", m.get("retries", 0))
+    d4.metric("Retry failed (cases)", m.get("retry_failed", 0))
+
+    # Nota
+    st.caption(
+        f"DLQ escritos: {m.get('dlq_written', 0)} · "
+        f"API_URL: {API_URL}"
+    )
 
 # ================================ TAB: DLQ =================================
 with tab_dlq:

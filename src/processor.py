@@ -1,7 +1,7 @@
 from src.utils.logger import get_logger
 from src.utils.dlq_handler import write_to_dlq
 from src.metrics import METRICS
-from src.notifier import send_telegram_message
+from src.notifier import send_telegram_message, format_p1_alert
 
 logger = get_logger("processor")
 
@@ -34,23 +34,32 @@ def process_ticket(ticket: dict) -> dict:
         path = write_to_dlq(ticket, f"classify_error: {e}", stage="classify")
         return {"ticket_id": ticket_id, "status": "DLQ", "dlq_path": path}
 
-    # 2) Notificación si P1
+    # 2) Notificación si P1 (Week 6: contar reintentos)
     if should_notify(enriched):
         ok = False
+        retries_used = 0
         try:
-            ok = send_telegram_message(f"[P1] {enriched.get('title')} — #{enriched.get('id')}")
+            msg = format_p1_alert(enriched)
+            ok, retries_used = send_telegram_message(msg)
         except Exception as e:
             logger.warning(f"Notifier throw: {e}", extra={"ticket_id": ticket_id, "stage": "notify"})
+
+        # Contabilizamos métricas Week 6
+        METRICS["retries"] += retries_used
 
         if not ok:
             METRICS["notify_failed"] += 1
             METRICS["failed"] += 1
+            METRICS["retry_failed"] += 1
             METRICS["dlq"] += 1
             path = write_to_dlq(enriched, "notify_failed", stage="notify")
             return {"ticket_id": ticket_id, "status": "DLQ", "dlq_path": path}
         else:
             METRICS["notify_success"] += 1
-            logger.info("Notificación P1 OK", extra={"ticket_id": ticket_id, "stage": "notify"})
+            logger.info(
+                "Notificación P1 OK",
+                extra={"ticket_id": ticket_id, "stage": "notify", "extra": {"retries_used": retries_used}}
+            )
 
     logger.info("Procesamiento OK", extra={"ticket_id": ticket_id, "stage": "end"})
     return {"ticket_id": ticket_id, "status": "OK"}

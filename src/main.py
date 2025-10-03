@@ -50,16 +50,22 @@ def process(batch: BatchIn):
 
 @app.get("/metrics")
 def metrics():
+    processed = METRICS["processed"]
+    failed = METRICS["failed"]
+    success_rate = 0.0 if processed == 0 else round((processed - failed) / processed, 4)
+    error_rate = 0.0 if processed == 0 else round(failed / processed, 4)
+
     return {
-        "tickets_processed": METRICS["processed"],
-        "tickets_failed": METRICS["failed"],
+        "tickets_processed": processed,
+        "tickets_failed": failed,
         "dlq_written": METRICS["dlq"],
         "notify_success": METRICS["notify_success"],
         "notify_failed": METRICS["notify_failed"],
-        "success_rate": (
-            0.0 if METRICS["processed"] == 0
-            else round((METRICS["processed"] - METRICS["failed"]) / METRICS["processed"], 4)
-        ),
+        # Week 6
+        "retries": METRICS["retries"],
+        "retry_failed": METRICS["retry_failed"],
+        "success_rate": success_rate,
+        "error_rate": error_rate,
     }
 
 # ----------------- Global exception hook -----------------

@@ -115,6 +115,7 @@ Minimal dashboard running with synthetic data.
 Screenshot:
 ![Week 1 Dashboard](assets/screenshots/week1_dashboard.png)
 
+
 ### Week 2
 
 Integration of a local LLM (Ollama) for automated summaries.
@@ -122,6 +123,7 @@ The dashboard now displays AI-generated insights + actionable next steps along w
 
 Screenshot:
 ![Week 2 Dashboard](assets/screenshots/week2_dashboard.png)
+
 
 ### Week 3
 
@@ -153,6 +155,7 @@ In Week 4 we integrated **orchestration (n8n)** with our pipeline and connected 
 - **Telegram notification** of a synthetic P1 ticket:  
   ![Week 4 Telegram](assets/screenshots/week4_telegram.png)
 
+
 ### Week 5 – Logging & System Health
 
 - Added **structured logging** with request/ticket IDs.  
@@ -166,7 +169,18 @@ Screenshots:
 
 - **Dead Letter Queue**:  
   ![Week 5 DLQ](assets/screenshots/week5_dlq.png)
----
+
+
+### Week 6 – Retry & Error Metrics
+
+- Added **retry counters** for failed notifications (success/fail).  
+- Extended **System Health** with retry rate, error rate, and notification metrics.  
+- DLQ view enhanced with contextual details for failed tickets.  
+
+Screenshots:  
+![Week 6 System Health](assets/screenshots/week6_systemhealth.png)  
+![Week 6 DLQ](assets/screenshots/week6_dlq.png)
+ ---
 
 ## ⚙️ Setup
 
