@@ -50,33 +50,30 @@ st.set_page_config(page_title="AI Automation – Dashboard", layout="wide")
 st.title("AI Automation – Dashboard")
 
 # ------------------------------- Helpers --------------------------------
+@st.cache_data(show_spinner=False)
 def load_data() -> pd.DataFrame:
     path_out = Path(OUT_CSV)
     path_in = Path(IN_CSV)
-
+    df = pd.DataFrame()
     if path_out.exists():
         df = pd.read_csv(path_out)
     elif path_in.exists():
         df = pd.read_csv(path_in)
     else:
         st.warning("No data found. Please run the processing job first.")
-        return pd.DataFrame()
+        return df
 
-    # columnas esperadas
+    EXPECTED_COLS = [
+        "id", "created_at", "channel", "subject", "description",
+        "topic", "priority", "sentiment", "owner_suggested"
+    ]
     for col in EXPECTED_COLS:
         if col not in df.columns:
             df[col] = None
 
-    # tipos
+    # Normalización
     if "created_at" in df.columns:
         df["created_at"] = pd.to_datetime(df["created_at"], errors="coerce")
-    if "priority" in df.columns:
-        df["priority"] = df["priority"].fillna("P3").astype(str)
-    if "topic" in df.columns:
-        df["topic"] = df["topic"].fillna("other").astype(str)
-    if "sentiment" in df.columns:
-        df["sentiment"] = df["sentiment"].fillna("").astype(str)
-
     return df
 
 def fetch_metrics() -> dict | None:

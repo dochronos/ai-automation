@@ -180,6 +180,17 @@ Screenshots:
 Screenshots:  
 ![Week 6 System Health](assets/screenshots/week6_systemhealth.png)  
 ![Week 6 DLQ](assets/screenshots/week6_dlq.png)
+
+
+### Week 7 – Dashboard Polish & Filtering
+
+- Added **date-range filtering** and improved topic drill-down.  
+- Enhanced UI consistency and responsiveness in Streamlit dashboard.  
+- Optimized data loading for larger CSV datasets.
+
+Screenshot:  
+![Week 7 Dashboard](assets/screenshots/week7_dashboard.png)
+
  ---
 
 ## ⚙️ Setup
