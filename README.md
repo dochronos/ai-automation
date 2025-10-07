@@ -191,6 +191,19 @@ Screenshots:
 Screenshot:  
 ![Week 7 Dashboard](assets/screenshots/week7_dashboard.png)
 
+
+### Week 8 – Docker Deployment
+
+In Week 8, the entire AI Automation Workflow was containerized using Docker.  
+The backend (FastAPI) and frontend (Streamlit) now run together in a single image, exposing ports **8001** and **8501**.  
+This marks the first **self-contained deployment**, ensuring environment consistency across local and cloud setups.
+
+- **Docker build & run**:  
+  ![Week 8 Terminal](assets/screenshots/week8_terminal.png)
+
+- **Dashboard served from the container**:  
+  ![Week 8 Deploy](assets/screenshots/week8_deploy.png)
+
  ---
 
 ## ⚙️ Setup

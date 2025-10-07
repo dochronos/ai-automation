@@ -1,0 +1,10 @@
+.venv
+__pycache__/
+*.pyc
+*.log
+assets/screenshots/
+data/outputs/*.csv
+dlq/*.json
+.streamlit/
+.git
+.gitignore
