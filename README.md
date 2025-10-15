@@ -302,6 +302,58 @@ Includes `data/sample_tickets.csv` with \~100 synthetic rows (English) for end�
 
 ---
 
+## 🗓️ Development Timeline (Weeks 1–8)
+
+| Week | Focus | Main Deliverables |
+|------|--------|------------------|
+| **Week 1** | Dashboard foundation | Created initial Streamlit dashboard with synthetic ticket dataset |
+| **Week 2** | AI Summaries | Integrated local LLM (Ollama) for executive weekly summaries |
+| **Week 3** | Alerts & Testing | Added real-time Telegram alerts for P1 tickets and test utilities |
+| **Week 4** | Orchestration | Connected n8n scheduler for automated pipeline execution |
+| **Week 5** | Logging & DLQ | Introduced structured logging and Dead Letter Queue handling |
+| **Week 6** | Metrics dashboard | Added System Health panel for metrics, retries, and error tracking |
+| **Week 7** | UI & filtering | Enhanced dashboard UX with filters, drill-downs, and metrics refinements |
+| **Week 8** | Containerization | Deployed full system using Docker (FastAPI + Streamlit unified image) |
+
+---
+
+## 📊 Retrospective (Weeks 1–8)
+
+After two months of steady iteration, **AI-Automation & Analytics Workflow** reached full operational maturity — from data ingestion and classification to orchestration, observability, and containerized deployment.
+
+**Key achievements:**
+- Designed a modular **FastAPI backend** for classification and processing.  
+- Integrated **Ollama LLM summaries** for data-driven executive insights.  
+- Built **real-time Telegram notifications** for critical (P1) tickets.  
+- Implemented **DLQ and retry logic** to ensure pipeline resilience.  
+- Developed **Streamlit System Health dashboard** for live metrics.  
+- Delivered a **Dockerized environment** for unified backend + frontend deployment.
+
+This stage concludes with a robust, reproducible automation workflow showcasing **end-to-end AI integration** and **data observability**.
+
+---
+
+## 🔗 Evolution → Urban Intelligence Lab
+
+AI-Automation now closes its standalone phase.  
+Starting in **August 2025**, it becomes a core module of the unified ecosystem:  
+> **Urban Intelligence Lab** — *where Business Intelligence meets AI and Automation.*
+
+In this next chapter, the automation and orchestration components developed here will integrate with analytical dashboards like **Subte-Dashboard**, powering a shared environment for **urban data intelligence**.
+
+Stay tuned for **Week 1 of Urban Intelligence Lab**, launching next week. 🚀
+
+---
+
+### 📸 Key Visuals
+- `assets/screenshots/week8_terminal.png` — FastAPI + Streamlit unified Docker container running  
+- `assets/screenshots/week8_deploy.png` — Dashboard served directly from containerized environment  
+
+> 🗃️ **Repository status:**  
+> As of October 2025, this project has been archived to preserve its complete development cycle.  
+> Active development continues in the unified repository: **[Urban Intelligence Lab](https://github.com/dochronos/urban-intelligence-lab)**.
+
+
 ## 📝 License
 
 MIT.
@@ -310,4 +362,4 @@ MIT.
 
 ## 🙌 Credits
 
-Design & development: Herman Schubert (dochronos). Inspired by real-world support/ops workflows.
+Design & development: Herman Schubert. Inspired by real-world support/ops workflows.
